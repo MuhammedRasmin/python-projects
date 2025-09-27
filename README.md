@@ -1,11 +1,5 @@
 🎓 Student Grading System
-   ____  _             _       ____                  _             
-  / ___|| |_ __ _ _ __| |_    / ___|_ __ _   _ _ __ | |_ ___  _ __ 
-  \___ \| __/ _` | '__| __|  | |  _| '__| | | | '_ \| __/ _ \| '__|
-   ___) | || (_| | |  | |_   | |_| | |  | |_| | |_) | || (_) | |   
-  |____/ \__\__,_|_|   \__|   \____|_|   \__, | .__/ \__\___/|_|   
-                                         |___/|_|                   
-
+            
 
 A Python-based Student Grading System that allows teachers and students to manage grades efficiently. Teachers can add, view, update, and delete student records and marks, while students can login securely to check their grades.
 
