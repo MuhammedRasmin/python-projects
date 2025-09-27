@@ -1,62 +1,91 @@
-🎓 Student Grading System
-            
+Student Grading System
 
-A Python-based Student Grading System that allows teachers and students to manage grades efficiently. Teachers can add, view, update, and delete student records and marks, while students can login securely to check their grades.
+A Python-based Student Grading System that allows teachers and students to manage grades efficiently.
+Teachers can add, view, update, and delete student records and marks, while students can securely login to check their grades.
 
-🌟 Features
-👩‍🏫 Teacher
+Features
+Teacher
 
-Add, update, view, and delete student records.
+Add, update, view, and delete student records
 
-Add, update, and view student marks.
+Add, update, and view student marks
 
-Secure login with password (admin123).
+Secure login with password (admin123)
 
-🧑‍🎓 Student
+Student
 
-Login with Roll No and Password.
+Login with Roll No and Password
 
-View personal profile.
+View personal profile
 
-Check marks for all subjects.
+Check marks for all subjects
 
-🛠️ Tech & Database
+Technology
 
 Python 3.x
 
 SQLite3 database
 
-Terminal-based CLI (easy to use)
+Terminal-based CLI interface
 
-💻 Installation
+Installation
 
-Make sure Python 3.x is installed.
+Ensure Python 3.x is installed on your system
 
 Clone this repository:
 
 git clone https://github.com/yourusername/python-projects.git
 
 
-Navigate to the project folder:
+Navigate into the project folder:
 
 cd python-projects
 
 
-Run the program:
+Run the application:
 
 python Student_Grading_System.py
 
-🚀 Usage
+Usage
 
-Run the script.
+Run the script
 
-Select Teacher Login or Student Login.
+Select Teacher Login or Student Login
 
-Teacher: enter password admin123 → manage students and grades.
+Teacher Login:
 
-Student: enter Roll No and Password → view profile and marks.
+Password: admin123
 
-🗄️ Database Structure
+Manage students and marks via menu options
+
+Student Login:
+
+Enter Roll No and Password
+
+View profile and marks
+
+Sample CLI
+--- Main Menu ---
+1. Teacher Login
+2. Student Login
+3. Exit
+
+--- Teacher Menu ---
+1. Add Student
+2. View Students
+3. Update Student
+4. Delete Student
+5. Add Marks
+6. Update Marks
+7. View Marks
+8. Logout
+
+--- Student Menu ---
+1. View Profile
+2. View Marks
+3. Logout
+
+Database Structure
 
 Students Table
 
@@ -72,6 +101,6 @@ id	INTEGER	Primary Key
 roll_no	INTEGER	Foreign Key → Students
 subject	TEXT	Subject Name
 marks	INTEGER	Marks Obtained
-📌 Author
+Author
 
 Muhammed Rasmin
