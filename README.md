@@ -37,7 +37,7 @@ SQLite3 database
 Terminal-based CLI interface
 
 
-##Installation
+##Installation:
 
 Ensure Python 3.x is installed on your system
 
@@ -56,7 +56,7 @@ Run the application:
 python Student_Grading_System.py
 
 
-Usage
+#Usage:
 
 Run the script
 
@@ -98,17 +98,23 @@ Sample CLI
 3. Logout
 
 Database Structure
-Students Table
-Column	Type	Description
-roll_no	INTEGER	Primary Key
-name	TEXT	Student Name
-password	TEXT	Student Password
-Grades Table
-Column	Type	Description
-id	INTEGER	Primary Key
-roll_no	INTEGER	Foreign Key → Students
-subject	TEXT	Subject Name
-marks	INTEGER	Marks Obtained
 
+Students Table
+
+ID → INTEGER (Primary Key)
+
+Name → TEXT
+
+Student Password → TEXT
+
+Grades Table
+
+ID → INTEGER (Primary Key)
+
+Student ID → INTEGER (Foreign Key → Students)
+
+Subject → TEXT
+
+Marks → INTEGER
 
 Developed by - Muhammed Rasmin
