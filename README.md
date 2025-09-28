@@ -20,6 +20,7 @@ View personal profile
 
 Check marks for all subjects
 
+
 Technology
 
 Python 3.x
@@ -27,6 +28,7 @@ Python 3.x
 SQLite3 database
 
 Terminal-based CLI interface
+
 
 Installation
 
@@ -97,9 +99,6 @@ id	INTEGER	Primary Key
 roll_no	INTEGER	Foreign Key → Students
 subject	TEXT	Subject Name
 marks	INTEGER	Marks Obtained
-Author
-
-Muhammed Rasmin
 
 
 Developed by - Muhammed Rasmin
