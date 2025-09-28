@@ -3,14 +3,17 @@ Student Grading System
 A Python-based Student Grading System that allows teachers and students to manage grades efficiently.
 Teachers can add, view, update, and delete student records and marks, while students can securely login to check their grades.
 
+
 ##Features:
 
 Teacher
+
 Add, update, view, and delete student records
 
 Add, update, and view student marks
 
 Secure login with password (admin123)
+
 
 Student
 
@@ -21,7 +24,7 @@ View personal profile
 Check marks for all subjects
 
 
-Technology
+##Technology
 
 Python 3.x
 
@@ -30,7 +33,7 @@ SQLite3 database
 Terminal-based CLI interface
 
 
-Installation
+##Installation
 
 Ensure Python 3.x is installed on your system
 
@@ -48,6 +51,7 @@ Run the application:
 
 python Student_Grading_System.py
 
+
 Usage
 
 Run the script
@@ -58,6 +62,7 @@ Teacher Login:
 
 Password: admin123
 
+
 Manage students and marks via menu options
 
 Student Login:
@@ -65,6 +70,7 @@ Student Login:
 Enter Roll No and Password
 
 View profile and marks
+
 
 Sample CLI
 --- Main Menu ---
