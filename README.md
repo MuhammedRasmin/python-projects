@@ -1,4 +1,4 @@
-Student Grading System
+# Student Grading System
 
 A Python-based Student Grading System that allows teachers and students to manage grades efficiently.
 Teachers can add, view, update, and delete student records and marks, while students can securely login to check their grades.
@@ -8,75 +8,48 @@ Teachers can add, view, update, and delete student records and marks, while stud
 
 
 
-##Features:
+## Features
 
-Teacher
+### Teacher
 
-Add, update, view, and delete student records
-
-Add, update, and view student marks
-
-Secure login with password (admin123)
+* Add, update, view, and delete student records
+* Add, update, and view student marks
+* Secure login with password (admin123)
 
 
-Student
+### Student
 
-Login with Roll No and Password
-
-View personal profile
-
-Check marks for all subjects
+* Login with Roll No and Password
+* View personal profile
+* Check marks for all subjects
 
 
-##Technology
+### Technology
 
-Python 3.x
-
-SQLite3 database
-
-Terminal-based CLI interface
+* Python 3.x
+* SQLite3 database
+* Terminal-based CLI interface
 
 
-##Installation:
 
-Ensure Python 3.x is installed on your system
+## Installation
 
-Clone this repository:
-
-git clone https://github.com/yourusername/python-projects.git
-
-
-Navigate into the project folder:
-
-cd python-projects
+* Ensure Python 3.x is installed on your system
+* Clone this repository: git clone https://github.com/yourusername/python-projects.git
+* Navigate into the project folder: cd python-projects
+* Run the application: python Student_Grading_System.py
 
 
-Run the application:
+## Usage
 
-python Student_Grading_System.py
+* Run the script
+* Select Teacher Login or Student Login
+* Teacher Login: Password admin123 (manage students and marks)
+* Student Login: Enter Roll No and Password (view profile and marks)
+ 
 
+## Sample CLI
 
-#Usage:
-
-Run the script
-
-Select Teacher Login or Student Login
-
-Teacher Login:
-
-Password: admin123
-
-
-Manage students and marks via menu options
-
-Student Login:
-
-Enter Roll No and Password
-
-View profile and marks
-
-
-Sample CLI
 --- Main Menu ---
 1. Teacher Login
 2. Student Login
@@ -97,24 +70,22 @@ Sample CLI
 2. View Marks
 3. Logout
 
-Database Structure
+## Database Structure
 
-Students Table
+### Students Table
 
-ID → INTEGER (Primary Key)
+* roll_no → INTEGER (Primary Key)
+* name → TEXT
+* password → TEXT
 
-Name → TEXT
 
-Student Password → TEXT
+### Grades Table
 
-Grades Table
+* id → INTEGER (Primary Key)
+* roll_no → INTEGER (Foreign Key → Students)
+* subject → TEXT
+* marks → INTEGER
 
-ID → INTEGER (Primary Key)
+## 
 
-Student ID → INTEGER (Foreign Key → Students)
-
-Subject → TEXT
-
-Marks → INTEGER
-
-Developed by - Muhammed Rasmin
+##### Developed by - Muhammed Rasmin
