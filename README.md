@@ -21,9 +21,11 @@ Secure login with password (admin123)
 
 Student
 
-1.Login with Roll No and Password
-2.View personal profile
-3.Check marks for all subjects
+Login with Roll No and Password
+
+View personal profile
+
+Check marks for all subjects
 
 
 ##Technology
