@@ -4,6 +4,10 @@ A Python-based Student Grading System that allows teachers and students to manag
 Teachers can add, view, update, and delete student records and marks, while students can securely login to check their grades.
 
 
+
+
+
+
 ##Features:
 
 Teacher
